@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: white;
+    font-family: 'calibri';
+    background: linear-gradient(120deg, #fbffb4 60%, #ffffff 60%);
+  }
+  
+  header {
+    background: url('monumento.jpeg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+    color: black;
+  }
+  
+  section h1 {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+  
+  .conte {
+    text-align: center;
+  }
+  
+  .conte p {
+    font-size: 100px;
+    font-weight: bold;
+  }
+.photo-image-block{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 5px;
+}
+
+img.imagen{
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.subtitle{
+  color: black;
+  background-color:rgb(238, 195, 120);
+}
+.navigation{
+  color: white;
+  font-size: 120%;
+  font-family: monospace;
+  text-decoration: white;
+  text-align: center;
+  background-color: rgb(238, 195, 120);
+  
+}
+.n{color: rgb(114, 90, 3);
+}
+
+.n:hover{
+  color: darkcyan;
+}
+
+.w{
+  color: black;
+  margin-left: 20px;
+}
+
+.t{
+  color: black;
+  margin-left: 20px;
+}
+.footer{
+  color: black;
+}
+.end{
+  text-align: right;
+  margin-right: 10px;
+}
+
+.j{
+  text-align: center;
+  color: rgb(117, 117, 6);
+  background-color: khaki;
+}
+
+.list{
+  color: black;
+}
+.lists{
+  text-align: center;
+}
+.list{
+  margin-top: 10px;
+}
+.list:hover{
+ color: red;
+}
+
+.j:hover{
+  background-color: chartreuse;
+  color: darkmagenta;
+}
+
+.calendar{
+  text-align: center;
+}
+
+.events{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Calendar{
+margin-top: 10px;
+border-radius: 20px;
+}
+
+.noticias{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.r{
+  width: 450px;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.y{
+  color: black;
+  text-align: center;
+}
+.y:hover{
+  color: greenyellow;
+}
+
+
+
+.restaurant{
+  text-align: center;
+  color: black;
+}
+
+.restaurant .head{
+  border-radius: 10px;
+  background-color: rgb(238, 195, 120);
+  margin-left: 2cm;
+  margin-right: 20cm;
+  position: relative;
+  z-index: 1;
+}
+.restaurant .head p{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.RHimagen{
+  position: relative;
+  border-radius: 5%;
+  top: -50px; left: 130px; z-index: 0">
+}
+
+.blockRestaurant div{
+  border-radius: 10px;
+  background-color:  #ffec9f;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 20px;
+}
+.blockRestaurant div.left{
+  margin-left: 2cm;
+  margin-right: 4cm;
+}
+.blockRestaurant div.right{
+  margin-left: 4cm;
+  margin-right: 2cm;
+}
+
+
+.blockRestaurant  h2{
+  font-size: 200%;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left:50px;
+  padding: 30px;
+  width: 200px;
+  background-color: rgb(238, 195, 120);
+}
+.blockRestaurant .left h2{
+  float: left;
+ }
+.blockRestaurant .right h2{
+  float: right;
+}
+
+.blockRestaurant p{
+  padding: 20px 20px;
+  width:450px ;
+  font-size: 120%;
+  text-align: justify;
+}
+#parr,#link,#like{
+  padding: 20px 20px;
+  font-size: 120%;
+  color: black;
+  font-weight: bolder;
+  display: none;
+  width: 10cm;
+}
+.blockRestaurant .left p{
+  float:left;
+}
+.blockRestaurant .right p{
+  float:right;
+}
+
+.blockRestaurant .left{
+  float: left;
+}
+.blockRestaurant .right{
+  float: right;
+}
+
+.blockRestaurant table{
+  margin: 0 auto;
+}
+.blockRestaurant td{
+  padding: 7px;
+}
+
+table{
+  color:black;
+  text-align: center;
+  margin: 0 auto;
+  border: black solid 1px;
+  border-collapse: collapse;
+}
+
+tr,td,th{
+  border: black solid 1px;
+  padding: 0.5cm;
+}
+
+table.noBorder{
+  border:none;
+
+}
+
+.noBorder tr,.noBorder td, .noBorder th{
+  border: none;
+  padding:2px;
+}
+
+li.yes {
+  list-style: none;
+  padding: 1px 25px;
+  background-image: url(yes.webp);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+}
+
+li.no {
+  list-style: none;
+  padding: 1px 25px;
+  background-image: url(cross.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+}
+
+[class*="col-"] {float: left; width: 100%;}
+
+  @media only screen and (min-width: 768px) {
+    .col-1 { width: 40%;}
+    .col-2 { width: 60%;}
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .col-1{ width: 25%;}
+    .col-2{ width: 75%;}
+  }
+
+  #contents {
+    padding: 0;
+    margin: 1em;
+    background-color: lightcyan;
+  }
+
+  #contents h2 {
+    font-size: 120%;
+    background-color: rgb(182, 230, 232);
+    
+  }
+  body {
+    background-color: white;
+  }
+
+  #head {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .imagenH {
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+  }
+
+  .myform{
+    color: black;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }

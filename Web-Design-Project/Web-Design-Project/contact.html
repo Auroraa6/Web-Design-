@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript" src="contact.js">
+    </script>
+</head>
+<body class="RestaurantHotel">
+    <header>
+        <section>
+            <div class="conte">
+                <p>Seville</p>
+                <h3 class="subtitle">Visit Seville -- Seville City Hall</h3>
+            </div>
+        </section>
+    </header>
+    <div class="navigation">
+        <a class="n" href="index.html">Homepage</a>
+        <a class="n" href="history.html">History</a>
+        <a class="n" href="restaurant.html">Restaurants</a>
+        <a class="n" href="hotel.html">Hotels</a>
+        <a class="n" href="events.html">Events</a>
+        <a class="n" href="contact.html">Question</a>
+    </div>
+    <br><br>
+    <form method="get" id="cambia" action=""
+        name="myform" class="myform"
+        onsubmit="change(); return false;">
+        <div>Name:
+        <input name="name" type="text"></div>
+        <div>Surname:
+        <input name="surname" type="text"></div>
+        <div>Mail:
+        <input name="email" type="text"></div>
+        <div>Your favorite place of Seville:
+        <select name="select">
+            <option value="Sevilla Cathedral">Sevilla Cathedral</option>
+            <option value="Giralda" selected>Giralda</option>
+            <option value="Triana Bridge">Triana Bridge</option>
+          </select></div> 
+        <input type="submit" value="Submit">
+    </form>
+    <center>
+    <p class="blockRestaurant" id="parr">Thank you very much for visiting this website
+    
+    </p><a href="" id="link">Click me</a>
+    <div id="like">
+    <h2>Did you like the website?</h2>
+    <img src="images/yes.webp" onclick="increment();" height="100" width="100"> <img src="images/cross.png" onclick="decrement();" height="100" width="100">
+    <br>
+    Like : <span id="number">0</span>
+    </div>
+    </center>
+    <div class="footer">
+        <a style="text-align:center" href="policy.html">Politica de privacidad</a>
+        <p class="end"> 2022/2023 Components: Aurora, Juan, Alvaro </p>
+    </div>
+
+</body>
+</html>
